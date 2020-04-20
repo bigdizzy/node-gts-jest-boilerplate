@@ -1,10 +1,10 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
 import {
   LogLevel,
   LOG_LEVEL_STRINGS,
   LOG_LEVEL_DICTIONARY,
 } from './logger.interface';
 
-// tslint:disable: no-any
 export class LoggerUtil {
   static createLogEntry(
     logLevel: LogLevel,

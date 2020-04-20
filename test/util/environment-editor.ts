@@ -1,4 +1,4 @@
-import { Dictionary } from '../../src/util/interfaces';
+import {Dictionary} from '../../src/util/interfaces';
 
 export class EnvironmentEditor {
   private readonly envCopy: Dictionary<string> = {};
@@ -25,7 +25,7 @@ export class EnvironmentEditor {
   }
 
   reset(key: string): void {
-    if (this.envCopy[key] != null) {
+    if (this.envCopy[key]) {
       process.env[key] = this.envCopy[key];
       delete this.envCopy[key];
     } else {
@@ -37,7 +37,7 @@ export class EnvironmentEditor {
   private storeOriginalValue(key: string) {
     if (!this.envKeys[key]) {
       this.envKeys[key] = true;
-      if (process.env[key] != null) {
+      if (process.env[key]) {
         this.envCopy[key] = process.env[key] || '';
       }
     }

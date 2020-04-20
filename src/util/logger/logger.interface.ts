@@ -1,6 +1,6 @@
-import { Dictionary } from '../interfaces';
+/* eslint-disable @typescript-eslint/no-explicit-any */
+import {Dictionary} from '../interfaces';
 
-// tslint:disable: no-any
 export interface Logger {
   emergency: LogFunction;
   alert: LogFunction;
