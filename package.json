@@ -20,12 +20,12 @@
     "fix": "scripts/lint-fix"
   },
   "devDependencies": {
-    "@types/jest": "^24.0.22",
-    "@types/node": "^10.0.3",
-    "gts": "^1.1.0",
-    "jest": "24.9.0",
-    "ts-jest": "^24.1.0",
-    "typescript": "^3.7.2"
+    "@types/jest": "^25.2.1",
+    "@types/node": "^13.13.0",
+    "gts": "^2.0.0",
+    "jest": "25.4.0",
+    "ts-jest": "^25.4.0",
+    "typescript": "^3.8.3"
   },
   "dependencies": {}
 }

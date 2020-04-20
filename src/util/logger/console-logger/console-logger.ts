@@ -1,8 +1,8 @@
-import { Logger, LogLevel } from '..';
-import { LoggerUtil } from '../logger-util';
-import { ConsoleLoggingInterface } from './console-logger.models';
+/* eslint-disable @typescript-eslint/no-explicit-any */
+import {Logger, LogLevel} from '..';
+import {LoggerUtil} from '../logger-util';
+import {ConsoleLoggingInterface} from './console-logger.models';
 
-// tslint:disable: no-any
 export class ConsoleLogger implements Logger {
   private readonly console: ConsoleLoggingInterface;
 
