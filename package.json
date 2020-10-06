@@ -13,7 +13,7 @@
     "start": "npm run compile && node dist/run.js",
     "test": "jest --coverage",
     "debug": "node --nolazy --inspect-brk=9339 dist/run.js",
-    "check": "gts",
+    "check": "gts check",
     "clean": "rm -rf dist",
     "compile": "tsc -p .",
     "compile:prod": "tsc -p tsconfig.prod.json",
