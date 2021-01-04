@@ -20,12 +20,12 @@
     "fix": "gts fix"
   },
   "devDependencies": {
-    "@types/jest": "^26.0.14",
-    "@types/node": "^13.13.0",
+    "@types/jest": "^26.0.19",
+    "@types/node": "^13.13.38",
     "gts": "^2.0.2",
     "jest": "26.5.0",
-    "ts-jest": "^26.4.1",
-    "typescript": "^4.0.3"
+    "ts-jest": "^26.4.4",
+    "typescript": "^4.1.3"
   },
   "dependencies": {}
 }
